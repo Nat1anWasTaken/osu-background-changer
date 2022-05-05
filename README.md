@@ -8,3 +8,6 @@ A mini script that replace osu! seasonal backgrounds with your own backgrounds.
 3. Run the exe file.
 4. Input your osu! path
 5. Enjoy!
+
+## ⚠️Warning
+WarningI'm not responsible for any damage caused by this program, Use it at your risk
