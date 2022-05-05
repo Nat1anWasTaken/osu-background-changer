@@ -9,7 +9,12 @@ class ImageError(Exception):
 
 def main():
     background_path = input("Enter the path to your osu! folder: ").replace('"', '') + "/Data/bg"
-    images = os.listdir("./images")
+    try:
+        images = os.listdir("./images")
+    except FileNotFoundError:
+        print("Images folder not found, creating new one.")
+        os.mkdir("./images")
+        images = os.listdir("./images")
     background_changer = OsuBackgroundChanger(background_path, images)
     background_changer.run()
 
