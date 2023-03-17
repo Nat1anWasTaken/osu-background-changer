@@ -10,4 +10,4 @@ A mini script that replace osu! seasonal backgrounds with your own backgrounds.
 5. Enjoy!
 
 ## ⚠️Warning
-WarningI'm not responsible for any damage caused by this program, Use it at your risk
+I'm not responsible for any damage caused by this program, Use it at your risk
